@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login | North-South University</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style> 
+        input, textarea { 
+            background-color: rgb(20, 222, 222); 
+        } 
+    </style> 
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h3><i class="fas fa-user-graduate icon"></i> Student Login</h3>
+            </div>
+            <div class="card-body">
+                <form id="studentLoginForm">
+                    <input type="text" id="studentId" name="studentId" placeholder="Enter Student ID (10 digits)" required><br>
+                    <input type="password" id="studentPassword" name="studentPassword" placeholder="Enter Password" required><br>
+                    <button type="submit" class="btn btn-primary"><i class="fas fa-sign-in-alt icon"></i>Login</button>
+                </form>
+                <p>Welcome, student! Please enter your credentials to access the system.</p>
+                <p><a href="forgot-password.html">Forgot Password?</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
